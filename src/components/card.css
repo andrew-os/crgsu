@@ -1,0 +1,16 @@
+.card{
+    flex: 0 0 25%;
+    max-width: 25%;
+    box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+    color: #4a4a4a;
+    padding: 1.5rem;
+    min-height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: normal;
+}
