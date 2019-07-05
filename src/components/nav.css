@@ -4,3 +4,26 @@
     font-size: 11px;
     color: #6E6E6E;
 }
+
+.navbar-collapse.collapse{
+    transition: display 0.5s ease-in;
+    display:none;
+}
+
+.navbar-collapse{
+    display: block;  
+}
+
+.link-style-btn{
+    border: none;
+    background: none;
+    color: #6E6E6E;
+    padding: 0;
+}
+
+.menu-has-children ul {
+    padding: 10px 0 
+}
+.menu-has-children ul > li {
+    list-style: none;
+}
