@@ -1,4 +1,9 @@
 
+nav{
+    position: fixed;
+    width: 0;
+    overflow-x: hidden;
+}
 .nav-has-children ul li{
     font-weight: normal;
     font-size: 11px;
@@ -22,8 +27,17 @@
 }
 
 .menu-has-children ul {
-    padding: 10px 0 
+    padding: 10px 0;
 }
 .menu-has-children ul > li {
     list-style: none;
+}
+
+@media only screen and (min-width: 800px){
+    nav{
+        position: relative;
+        overflow-x: auto;
+        width: 250px;
+    }
+   
 }

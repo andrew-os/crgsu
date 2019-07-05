@@ -2,6 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import HamBurger from "../components/hamburgermenu";
+
 
 const Header = ({ siteTitle }) => (
   <header
@@ -10,6 +12,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
+  <HamBurger />
     <div
       style={{
         margin: `0 auto`,
