@@ -1,13 +1,14 @@
-
+/* 
 nav{
     position: fixed;
     width: 0;
     overflow-x: hidden;
-}
+} */
 .nav-has-children ul li{
     font-weight: normal;
     font-size: 11px;
     color: #6E6E6E;
+    margin: 15px !important;
 }
 
 .navbar-collapse.collapse{
@@ -31,13 +32,16 @@ nav{
 }
 .menu-has-children ul > li {
     list-style: none;
+    
 }
-
-@media only screen and (min-width: 800px){
+.nav ul li ul{
+    flex-direction: column;
+}
+/* @media only screen and (min-width: 800px){
     nav{
         position: relative;
         overflow-x: auto;
         width: 250px;
     }
    
-}
+} */
