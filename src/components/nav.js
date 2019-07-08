@@ -94,7 +94,7 @@ nav {
     }
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 799px) {
   height: auto;
   min-height: 50px;
   display: block;
@@ -116,6 +116,7 @@ nav {
     top: 10px;
     right: 10px;
     cursor: pointer;
+    color: #fff;
   }
   ul.collapsed {
     width: 100%;
@@ -189,7 +190,7 @@ class Nav extends Component{
           <nav
           className="nav"
           style={{
-            background: `white`,
+            background: `black`,
             marginBottom: `1.45rem`,
           }}
         >
@@ -210,7 +211,7 @@ class Nav extends Component{
             <li className="nav-has-children" style={{ 
                   margin: `0 0 1.32rem`, 
                   listStyle: `none`,
-                  color: `#222222`,
+                  color: `#fff`,
                   fontWeight: `bold`,
               
               }}>
